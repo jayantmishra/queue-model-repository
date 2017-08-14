@@ -1,0 +1,13 @@
+<Rule>
+
+<Workflow Id="1" Name ="workflow name" Description ="loan workflow" startItem = "11"/>
+
+<Node>
+	<Item Id="11" TYPE ="QUEUE" RuleSetId = "100" />	
+</Node>
+
+
+<RuleSet id="100">
+<Action ID ="-1" type = "Route" Value = "100" />
+</RuleSet>
+</Rule>

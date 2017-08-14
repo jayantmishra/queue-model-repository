@@ -1,0 +1,2 @@
+service_id,service_name,service_desc,implementation_class
+1,"softcell_workflow_service","workflow description","com.softcell.routing.service.RulesService"

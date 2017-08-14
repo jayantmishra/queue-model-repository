@@ -1,0 +1,4 @@
+user_id,user_name,first_name,last_name,department_id,user_state,password
+100,"softcellUser1","jack","Daniels",1,1,"random"
+101,"softcellUser2","glen","morangie",1,1,"random"
+102,"softcellUser3","bira","white",1,1,"random"

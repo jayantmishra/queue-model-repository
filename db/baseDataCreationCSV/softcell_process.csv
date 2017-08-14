@@ -1,0 +1,2 @@
+process_id,process_name,state,service_id,max_instances
+1,"softecell workflow process",1,1,1

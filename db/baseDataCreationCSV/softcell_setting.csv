@@ -1,0 +1,2 @@
+setting_id,setting_name,setting_description,setting_value,apply
+1,"user_max_load","max load of user",10,1
