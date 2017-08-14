@@ -23,15 +23,22 @@ GRANT ALL PRIVILEGES ON * . * TO 'softadmin'@'localhost';)
         <username> ---> user name
         <password> ---> password 
         
+        
+        
  Second Step :
  Load all table schema into db just created
  
  1) all table creation schema files are placed at /Repository/db/schemaCreation, one may either manually 
  import these on workbench or use command line 
  
+ 
+ 
  Third Step : 
  Load all storedProcedure Creation scripts
  1)all storedProcedure creation scripts are placed at /Repository/db/StoredProcedure
+ 
+ 
+ 
  
  Fourth Step:
  above steps are sequential and necessary once done, 
@@ -41,6 +48,10 @@ GRANT ALL PRIVILEGES ON * . * TO 'softadmin'@'localhost';)
  <Extracted repository> / db/baseCreationCSV
  
  run it, it will automatically create initial data to work with
+ 
+ 
+ 
+ 
  
  Fifth Step:
  
