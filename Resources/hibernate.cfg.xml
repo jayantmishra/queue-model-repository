@@ -8,9 +8,9 @@
 
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false</property>
-        <property name="connection.username">SoftCell</property>
-        <property name="connection.password">SoftCell</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/<your dbname>?useSSL=false</property>
+        <property name="connection.username"><username></property>
+        <property name="connection.password"><password></property>
 
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">1</property>
